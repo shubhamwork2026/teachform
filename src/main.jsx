@@ -7,6 +7,7 @@ import Layout from './Layout.js'
 import Login from './pages/Login.jsx'
 import Verify from './pages/Verify.jsx'
 import Forgot from './pages/Forgot.jsx'
+import Signup from './pages/Signup.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
           {
             path: "forgot",
             Component: Forgot,
+          },
+          {
+            path: "signup",
+            Component: Signup,
           }
         ]
       }
