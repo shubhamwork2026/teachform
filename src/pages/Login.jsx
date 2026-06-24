@@ -1,0 +1,20 @@
+import Heading from "../components/ui/Heading";
+import Input from "../components/ui/Input";
+import { NavText } from "../components/ui/NavText";
+import SubmitButton from "../components/ui/SubmitButton";
+
+export default function Login () {
+    return (
+        <div className="flex justify-center sm:items-center sm:h-[100vh]">
+            <div className="w-[300px] sm:w-[500px]">
+                <Heading text="Log in"/>
+                <form className="flex flex-col gap-6 items-center">
+                    <Input type="tel" placeholder="Enter your phone number" />
+                    <Input type="password" placeholder="Enter your password" />
+                    <SubmitButton text="Log in"/>
+                    <NavText text="Don't have an account ?" linkText="Sign up" link="#"/>
+                </form>
+            </div>
+        </div>
+    )
+}
