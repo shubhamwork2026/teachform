@@ -13,7 +13,7 @@ export default function Forgot () {
                     <Input type="password" placeholder="Enter new password" />
                     <Input type="password" placeholder="Confirm password" />
                     <SubmitButton text="Reset"/>
-                    <NavText text="Remember your password ?" linkText="Log in" link="#"/>
+                    <NavText text="Remember your password ?" linkText="Log in" link="/auth/login"/>
                 </form>
             </div>
         </div>
