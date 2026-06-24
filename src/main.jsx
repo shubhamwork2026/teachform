@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Layout from './Layout.js'
 import Login from './pages/Login.jsx'
 import Verify from './pages/Verify.jsx'
+import Forgot from './pages/Forgot.jsx'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
           {
             path: "verify",
             Component: Verify,
+          },
+          {
+            path: "forgot",
+            Component: Forgot,
           }
         ]
       }
